@@ -1,5 +1,5 @@
 context:
-  version: "0.10.5"
+  version: "0.11.0"
 
 package:
   name: lune
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://github.com/lune-org/lune/archive/refs/tags/v${{ version }}.tar.gz
-  sha256: 09d15b4380e5b02a3656939619e948e6d36d549a4adbb499c1de0707a143adbf
+  sha256: 4353072ee38d7ded19f487e0bdebb9b631ba7a3d52cb0eabe3be5d98581b16d5
   patches:
     - 0001-disable-aws-lc-rs-in-futures-rustls.patch
 
